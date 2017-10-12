@@ -1,0 +1,679 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		899DDD18351C6235C4C5F6C5 /* Pods_RealWonder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB81A4240A846FF9FB1300E2 /* Pods_RealWonder.framework */; };
+		AA19D7B71F8A3F990014B263 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA19D7B61F8A3F990014B263 /* AppDelegate.m */; };
+		AA19D7BA1F8A3F990014B263 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA19D7B91F8A3F990014B263 /* ViewController.m */; };
+		AA19D7BD1F8A3F990014B263 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA19D7BB1F8A3F990014B263 /* Main.storyboard */; };
+		AA19D7C01F8A3F990014B263 /* RealWonder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA19D7BE1F8A3F990014B263 /* RealWonder.xcdatamodeld */; };
+		AA19D7C21F8A3F990014B263 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA19D7C11F8A3F990014B263 /* Assets.xcassets */; };
+		AA19D7C51F8A3F990014B263 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA19D7C31F8A3F990014B263 /* LaunchScreen.storyboard */; };
+		AA19D7C81F8A3F990014B263 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA19D7C71F8A3F990014B263 /* main.m */; };
+		AA19D7D21F8A3F990014B263 /* RealWonderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA19D7D11F8A3F990014B263 /* RealWonderTests.m */; };
+		AA19D7DD1F8A3F990014B263 /* RealWonderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA19D7DC1F8A3F990014B263 /* RealWonderUITests.m */; };
+		AA19D7EE1F8A404C0014B263 /* RWWonderCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA19D7EC1F8A404C0014B263 /* RWWonderCollectionViewCell.m */; };
+		AA19D7EF1F8A404C0014B263 /* RWWonderCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA19D7ED1F8A404C0014B263 /* RWWonderCollectionViewCell.xib */; };
+		AA19D7F31F8A4B650014B263 /* RWFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA19D7F11F8A4B650014B263 /* RWFeedViewController.m */; };
+		AA19D7F41F8A4B650014B263 /* RWFeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA19D7F21F8A4B650014B263 /* RWFeedViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA19D7CE1F8A3F990014B263 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA19D7AA1F8A3F990014B263 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA19D7B11F8A3F990014B263;
+			remoteInfo = RealWonder;
+		};
+		AA19D7D91F8A3F990014B263 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA19D7AA1F8A3F990014B263 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA19D7B11F8A3F990014B263;
+			remoteInfo = RealWonder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7BE0D81DCDCA5549FDC85082 /* Pods-RealWonder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealWonder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RealWonder/Pods-RealWonder.debug.xcconfig"; sourceTree = "<group>"; };
+		AA19D7B21F8A3F990014B263 /* RealWonder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealWonder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA19D7B51F8A3F990014B263 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA19D7B61F8A3F990014B263 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA19D7B81F8A3F990014B263 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AA19D7B91F8A3F990014B263 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA19D7BC1F8A3F990014B263 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA19D7BF1F8A3F990014B263 /* RealWonder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RealWonder.xcdatamodel; sourceTree = "<group>"; };
+		AA19D7C11F8A3F990014B263 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA19D7C41F8A3F990014B263 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA19D7C61F8A3F990014B263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA19D7C71F8A3F990014B263 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA19D7CD1F8A3F990014B263 /* RealWonderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealWonderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA19D7D11F8A3F990014B263 /* RealWonderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RealWonderTests.m; sourceTree = "<group>"; };
+		AA19D7D31F8A3F990014B263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA19D7D81F8A3F990014B263 /* RealWonderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealWonderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA19D7DC1F8A3F990014B263 /* RealWonderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RealWonderUITests.m; sourceTree = "<group>"; };
+		AA19D7DE1F8A3F990014B263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA19D7EB1F8A404C0014B263 /* RWWonderCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWWonderCollectionViewCell.h; sourceTree = "<group>"; };
+		AA19D7EC1F8A404C0014B263 /* RWWonderCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWWonderCollectionViewCell.m; sourceTree = "<group>"; };
+		AA19D7ED1F8A404C0014B263 /* RWWonderCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RWWonderCollectionViewCell.xib; sourceTree = "<group>"; };
+		AA19D7F01F8A4B650014B263 /* RWFeedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWFeedViewController.h; sourceTree = "<group>"; };
+		AA19D7F11F8A4B650014B263 /* RWFeedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWFeedViewController.m; sourceTree = "<group>"; };
+		AA19D7F21F8A4B650014B263 /* RWFeedViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RWFeedViewController.xib; sourceTree = "<group>"; };
+		BCBB4EB70102E4AEDB36EFB7 /* Pods-RealWonder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealWonder.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealWonder/Pods-RealWonder.release.xcconfig"; sourceTree = "<group>"; };
+		FB81A4240A846FF9FB1300E2 /* Pods_RealWonder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealWonder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA19D7AF1F8A3F990014B263 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				899DDD18351C6235C4C5F6C5 /* Pods_RealWonder.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA19D7CA1F8A3F990014B263 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA19D7D51F8A3F990014B263 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6ECBF23E693D7A097F67866A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7BE0D81DCDCA5549FDC85082 /* Pods-RealWonder.debug.xcconfig */,
+				BCBB4EB70102E4AEDB36EFB7 /* Pods-RealWonder.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AA19D7A91F8A3F990014B263 = {
+			isa = PBXGroup;
+			children = (
+				AA19D7B41F8A3F990014B263 /* RealWonder */,
+				AA19D7D01F8A3F990014B263 /* RealWonderTests */,
+				AA19D7DB1F8A3F990014B263 /* RealWonderUITests */,
+				AA19D7B31F8A3F990014B263 /* Products */,
+				6ECBF23E693D7A097F67866A /* Pods */,
+				D07B3BDCC3C9AAEF9EEE2E16 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AA19D7B31F8A3F990014B263 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA19D7B21F8A3F990014B263 /* RealWonder.app */,
+				AA19D7CD1F8A3F990014B263 /* RealWonderTests.xctest */,
+				AA19D7D81F8A3F990014B263 /* RealWonderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA19D7B41F8A3F990014B263 /* RealWonder */ = {
+			isa = PBXGroup;
+			children = (
+				AA19D7EA1F8A3FD40014B263 /* Components */,
+				AA19D7B51F8A3F990014B263 /* AppDelegate.h */,
+				AA19D7B61F8A3F990014B263 /* AppDelegate.m */,
+				AA19D7B81F8A3F990014B263 /* ViewController.h */,
+				AA19D7B91F8A3F990014B263 /* ViewController.m */,
+				AA19D7BB1F8A3F990014B263 /* Main.storyboard */,
+				AA19D7C11F8A3F990014B263 /* Assets.xcassets */,
+				AA19D7C31F8A3F990014B263 /* LaunchScreen.storyboard */,
+				AA19D7C61F8A3F990014B263 /* Info.plist */,
+				AA19D7C71F8A3F990014B263 /* main.m */,
+				AA19D7BE1F8A3F990014B263 /* RealWonder.xcdatamodeld */,
+			);
+			path = RealWonder;
+			sourceTree = "<group>";
+		};
+		AA19D7D01F8A3F990014B263 /* RealWonderTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA19D7D11F8A3F990014B263 /* RealWonderTests.m */,
+				AA19D7D31F8A3F990014B263 /* Info.plist */,
+			);
+			path = RealWonderTests;
+			sourceTree = "<group>";
+		};
+		AA19D7DB1F8A3F990014B263 /* RealWonderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA19D7DC1F8A3F990014B263 /* RealWonderUITests.m */,
+				AA19D7DE1F8A3F990014B263 /* Info.plist */,
+			);
+			path = RealWonderUITests;
+			sourceTree = "<group>";
+		};
+		AA19D7EA1F8A3FD40014B263 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AA19D7EB1F8A404C0014B263 /* RWWonderCollectionViewCell.h */,
+				AA19D7EC1F8A404C0014B263 /* RWWonderCollectionViewCell.m */,
+				AA19D7ED1F8A404C0014B263 /* RWWonderCollectionViewCell.xib */,
+				AA19D7F01F8A4B650014B263 /* RWFeedViewController.h */,
+				AA19D7F11F8A4B650014B263 /* RWFeedViewController.m */,
+				AA19D7F21F8A4B650014B263 /* RWFeedViewController.xib */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D07B3BDCC3C9AAEF9EEE2E16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB81A4240A846FF9FB1300E2 /* Pods_RealWonder.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA19D7B11F8A3F990014B263 /* RealWonder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA19D7E11F8A3F990014B263 /* Build configuration list for PBXNativeTarget "RealWonder" */;
+			buildPhases = (
+				6A1BDF9CC3BC4D090EBE5323 /* [CP] Check Pods Manifest.lock */,
+				AA19D7AE1F8A3F990014B263 /* Sources */,
+				AA19D7AF1F8A3F990014B263 /* Frameworks */,
+				AA19D7B01F8A3F990014B263 /* Resources */,
+				6196E411C6D0C653553B568E /* [CP] Embed Pods Frameworks */,
+				0542F91240F0332D871F8217 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RealWonder;
+			productName = RealWonder;
+			productReference = AA19D7B21F8A3F990014B263 /* RealWonder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA19D7CC1F8A3F990014B263 /* RealWonderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA19D7E41F8A3F990014B263 /* Build configuration list for PBXNativeTarget "RealWonderTests" */;
+			buildPhases = (
+				AA19D7C91F8A3F990014B263 /* Sources */,
+				AA19D7CA1F8A3F990014B263 /* Frameworks */,
+				AA19D7CB1F8A3F990014B263 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA19D7CF1F8A3F990014B263 /* PBXTargetDependency */,
+			);
+			name = RealWonderTests;
+			productName = RealWonderTests;
+			productReference = AA19D7CD1F8A3F990014B263 /* RealWonderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA19D7D71F8A3F990014B263 /* RealWonderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA19D7E71F8A3F990014B263 /* Build configuration list for PBXNativeTarget "RealWonderUITests" */;
+			buildPhases = (
+				AA19D7D41F8A3F990014B263 /* Sources */,
+				AA19D7D51F8A3F990014B263 /* Frameworks */,
+				AA19D7D61F8A3F990014B263 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA19D7DA1F8A3F990014B263 /* PBXTargetDependency */,
+			);
+			name = RealWonderUITests;
+			productName = RealWonderUITests;
+			productReference = AA19D7D81F8A3F990014B263 /* RealWonderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA19D7AA1F8A3F990014B263 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = RealWonder;
+				TargetAttributes = {
+					AA19D7B11F8A3F990014B263 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					AA19D7CC1F8A3F990014B263 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AA19D7B11F8A3F990014B263;
+					};
+					AA19D7D71F8A3F990014B263 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AA19D7B11F8A3F990014B263;
+					};
+				};
+			};
+			buildConfigurationList = AA19D7AD1F8A3F990014B263 /* Build configuration list for PBXProject "RealWonder" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA19D7A91F8A3F990014B263;
+			productRefGroup = AA19D7B31F8A3F990014B263 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA19D7B11F8A3F990014B263 /* RealWonder */,
+				AA19D7CC1F8A3F990014B263 /* RealWonderTests */,
+				AA19D7D71F8A3F990014B263 /* RealWonderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA19D7B01F8A3F990014B263 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA19D7C51F8A3F990014B263 /* LaunchScreen.storyboard in Resources */,
+				AA19D7C21F8A3F990014B263 /* Assets.xcassets in Resources */,
+				AA19D7F41F8A4B650014B263 /* RWFeedViewController.xib in Resources */,
+				AA19D7EF1F8A404C0014B263 /* RWWonderCollectionViewCell.xib in Resources */,
+				AA19D7BD1F8A3F990014B263 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA19D7CB1F8A3F990014B263 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA19D7D61F8A3F990014B263 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0542F91240F0332D871F8217 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealWonder/Pods-RealWonder-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6196E411C6D0C653553B568E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealWonder/Pods-RealWonder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A1BDF9CC3BC4D090EBE5323 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA19D7AE1F8A3F990014B263 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA19D7BA1F8A3F990014B263 /* ViewController.m in Sources */,
+				AA19D7F31F8A4B650014B263 /* RWFeedViewController.m in Sources */,
+				AA19D7B71F8A3F990014B263 /* AppDelegate.m in Sources */,
+				AA19D7C81F8A3F990014B263 /* main.m in Sources */,
+				AA19D7EE1F8A404C0014B263 /* RWWonderCollectionViewCell.m in Sources */,
+				AA19D7C01F8A3F990014B263 /* RealWonder.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA19D7C91F8A3F990014B263 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA19D7D21F8A3F990014B263 /* RealWonderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA19D7D41F8A3F990014B263 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA19D7DD1F8A3F990014B263 /* RealWonderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA19D7CF1F8A3F990014B263 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA19D7B11F8A3F990014B263 /* RealWonder */;
+			targetProxy = AA19D7CE1F8A3F990014B263 /* PBXContainerItemProxy */;
+		};
+		AA19D7DA1F8A3F990014B263 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA19D7B11F8A3F990014B263 /* RealWonder */;
+			targetProxy = AA19D7D91F8A3F990014B263 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA19D7BB1F8A3F990014B263 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA19D7BC1F8A3F990014B263 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA19D7C31F8A3F990014B263 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA19D7C41F8A3F990014B263 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA19D7DF1F8A3F990014B263 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AA19D7E01F8A3F990014B263 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA19D7E21F8A3F990014B263 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BE0D81DCDCA5549FDC85082 /* Pods-RealWonder.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LLSV39R9YJ;
+				INFOPLIST_FILE = RealWonder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RW.RealWonder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA19D7E31F8A3F990014B263 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCBB4EB70102E4AEDB36EFB7 /* Pods-RealWonder.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LLSV39R9YJ;
+				INFOPLIST_FILE = RealWonder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RW.RealWonder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA19D7E51F8A3F990014B263 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47M9L85NV4;
+				INFOPLIST_FILE = RealWonderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RW.RealWonderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealWonder.app/RealWonder";
+			};
+			name = Debug;
+		};
+		AA19D7E61F8A3F990014B263 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47M9L85NV4;
+				INFOPLIST_FILE = RealWonderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RW.RealWonderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealWonder.app/RealWonder";
+			};
+			name = Release;
+		};
+		AA19D7E81F8A3F990014B263 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47M9L85NV4;
+				INFOPLIST_FILE = RealWonderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RW.RealWonderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RealWonder;
+			};
+			name = Debug;
+		};
+		AA19D7E91F8A3F990014B263 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47M9L85NV4;
+				INFOPLIST_FILE = RealWonderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RW.RealWonderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RealWonder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA19D7AD1F8A3F990014B263 /* Build configuration list for PBXProject "RealWonder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA19D7DF1F8A3F990014B263 /* Debug */,
+				AA19D7E01F8A3F990014B263 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA19D7E11F8A3F990014B263 /* Build configuration list for PBXNativeTarget "RealWonder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA19D7E21F8A3F990014B263 /* Debug */,
+				AA19D7E31F8A3F990014B263 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA19D7E41F8A3F990014B263 /* Build configuration list for PBXNativeTarget "RealWonderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA19D7E51F8A3F990014B263 /* Debug */,
+				AA19D7E61F8A3F990014B263 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA19D7E71F8A3F990014B263 /* Build configuration list for PBXNativeTarget "RealWonderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA19D7E81F8A3F990014B263 /* Debug */,
+				AA19D7E91F8A3F990014B263 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AA19D7BE1F8A3F990014B263 /* RealWonder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AA19D7BF1F8A3F990014B263 /* RealWonder.xcdatamodel */,
+			);
+			currentVersion = AA19D7BF1F8A3F990014B263 /* RealWonder.xcdatamodel */;
+			path = RealWonder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AA19D7AA1F8A3F990014B263 /* Project object */;
+}
