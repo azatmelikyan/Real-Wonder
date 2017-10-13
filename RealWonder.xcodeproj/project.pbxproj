@@ -21,6 +21,7 @@
 		AA19D7EF1F8A404C0014B263 /* RWWonderCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA19D7ED1F8A404C0014B263 /* RWWonderCollectionViewCell.xib */; };
 		AA19D7F31F8A4B650014B263 /* RWFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA19D7F11F8A4B650014B263 /* RWFeedViewController.m */; };
 		AA19D7F41F8A4B650014B263 /* RWFeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA19D7F21F8A4B650014B263 /* RWFeedViewController.xib */; };
+		CE504A6C1F8FEBCF00F74E74 /* RWUser.m in Sources */ = {isa = PBXBuildFile; fileRef = CE504A6B1F8FEBCF00F74E74 /* RWUser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,8 @@
 		AA19D7F11F8A4B650014B263 /* RWFeedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWFeedViewController.m; sourceTree = "<group>"; };
 		AA19D7F21F8A4B650014B263 /* RWFeedViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RWFeedViewController.xib; sourceTree = "<group>"; };
 		BCBB4EB70102E4AEDB36EFB7 /* Pods-RealWonder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealWonder.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealWonder/Pods-RealWonder.release.xcconfig"; sourceTree = "<group>"; };
+		CE504A6A1F8FEBCF00F74E74 /* RWUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWUser.h; sourceTree = "<group>"; };
+		CE504A6B1F8FEBCF00F74E74 /* RWUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWUser.m; sourceTree = "<group>"; };
 		FB81A4240A846FF9FB1300E2 /* Pods_RealWonder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealWonder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -129,6 +132,7 @@
 		AA19D7B41F8A3F990014B263 /* RealWonder */ = {
 			isa = PBXGroup;
 			children = (
+				CE504A691F8FEBA700F74E74 /* Classes */,
 				AA19D7EA1F8A3FD40014B263 /* Components */,
 				AA19D7B51F8A3F990014B263 /* AppDelegate.h */,
 				AA19D7B61F8A3F990014B263 /* AppDelegate.m */,
@@ -173,6 +177,15 @@
 				AA19D7F21F8A4B650014B263 /* RWFeedViewController.xib */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		CE504A691F8FEBA700F74E74 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CE504A6A1F8FEBCF00F74E74 /* RWUser.h */,
+				CE504A6B1F8FEBCF00F74E74 /* RWUser.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		D07B3BDCC3C9AAEF9EEE2E16 /* Frameworks */ = {
@@ -375,6 +388,7 @@
 				AA19D7C81F8A3F990014B263 /* main.m in Sources */,
 				AA19D7EE1F8A404C0014B263 /* RWWonderCollectionViewCell.m in Sources */,
 				AA19D7C01F8A3F990014B263 /* RealWonder.xcdatamodeld in Sources */,
+				CE504A6C1F8FEBCF00F74E74 /* RWUser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
